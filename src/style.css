@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; background: #f0f4f8; color: #1a202c; }
+header { background: #2b6cb0; color: white; padding: 2rem 1rem; text-align: center; }
+header h1 { margin: 0; }
+header p { margin: 0.5rem 0 0; opacity: 0.9; }
+nav { background: #3182ce; padding: 0.75rem; text-align: center; }
+nav a { color: white; margin: 0 1rem; text-decoration: none; }
+main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.sequence { background: white; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.sequence h2 { margin-top: 0; color: #2b6cb0; }
+.meta { font-size: 0.85rem; color: #718096; margin-bottom: 0.75rem; }
+.links { background: #e2e8f0; padding: 1.5rem; border-radius: 8px; margin-top: 2rem; }
+.links a { display: block; margin: 0.4rem 0; color: #2b6cb0; }
+.site-footer { background: #2b6cb0; color: #e2e8f0; margin-top: 3rem; padding: 2.5rem 1rem 1rem; }
+.footer-content { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; }
+.footer-brand { display: flex; align-items: center; gap: 1rem; }
+.footer-logo { font-size: 2rem; background: rgba(255,255,255,0.1); width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+.footer-brand p { margin: 0.25rem 0 0; font-size: 0.85rem; opacity: 0.8; }
+.footer-links a { color: #bee3f8; text-decoration: none; margin-left: 1.5rem; }
+.footer-bottom { max-width: 900px; margin: 1.5rem auto 0; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; font-size: 0.8rem; opacity: 0.7; }
